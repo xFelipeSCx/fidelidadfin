@@ -1,0 +1,22 @@
+descomprimir proyecto en htdos
+
+abrir proyecto en vs code
+
+encender XAMPP
+
+php artisan migrate
+
+npm install en una termina
+
+php artisan vendor:publish --tag=crud
+
+npm run dev en otra terminal
+
+php artisan serve en otra terminal
+
+se registran, entran a XAMPP para cambiarse a admin y listo
+
+ya luego solo se necesita npm run dev y php artisan serve
+
+
+como tal el api rest viene siendo la conbinacion de los modelos, las clases, archivos request y al final el archivo web que son tus endpoints o la forma en la que se ejecutan los metodos 

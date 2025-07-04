@@ -1,0 +1,82 @@
+/* Estilos generales del navbar */
+.navbar {
+    background-color: #b71c1c; /* Rojo oscuro */
+    padding: 15px;
+}
+
+/* Estilo del logo */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+}
+
+/* Estilos del menú */
+.navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #fd7f59; /* Rojo anaranjado */
+    border-radius: 5px;
+}
+
+/* Estilos del botón de hamburguesa */
+.navbar-toggler {
+    border: none;
+    background-color: #b71c1c;
+}
+
+.navbar-toggler-icon {
+    background-color: #b71c1c;
+    color: white;
+}
+
+/* Estilos del Offcanvas */
+.offcanvas {
+    width: 250px !important;
+    background-color: #b71c1c !important; /* Fondo rojo oscuro */
+}
+
+.offcanvas-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Botón de información */
+.navbar .btn-info {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+/* Estilos del botón cerrar sesión */
+.offcanvas-body .btn-warning {
+    height: 48px;
+    border: none;
+    font-size: 18px;
+}
+
+/* Iconos en blanco */
+i {
+    color: white;
+}
+
+/* Ajustes específicos para pantallas grandes y móviles */
+@media (max-width: 991px) {
+    /* Modo móvil */
+    .offcanvas {
+        width: 250px !important; /* Ajuste de tamaño del offcanvas */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Modo escritorio */
+    .navbar {
+        background-color: #b71c1c; /* Mantener color del navbar */
+    }
+}
